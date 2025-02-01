@@ -27,25 +27,6 @@ export default function AboutPage() {
             Join us in our journey to create the next generation of innovators and entrepreneurs who will shape the
             future of technology and business.
           </p>
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-blue-600">Our Previous Works</h2>
-          <ul className="list-disc pl-6 space-y-4">
-            <li className="text-lg">
-              <strong>Tech Innovators 2022:</strong> A 48-hour hackathon that resulted in the development of 10
-              innovative prototypes, with the winning team's project now in incubation.
-            </li>
-            <li className="text-lg">
-              <strong>Startup Launchpad:</strong> A 6-month mentorship program that helped 5 student startups secure
-              seed funding and launch their products.
-            </li>
-            <li className="text-lg">
-              <strong>AI for Social Good:</strong> A collaborative project with local NGOs, where our students developed
-              AI solutions to address community challenges.
-            </li>
-            <li className="text-lg">
-              <strong>Green Campus Initiative:</strong> An eco-friendly project that implemented IoT-based solutions to
-              reduce energy consumption on campus by 15%.
-            </li>
-          </ul>
         </div>
       </main>
       <Footer />

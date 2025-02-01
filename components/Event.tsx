@@ -5,22 +5,22 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 
 const images = [
-  { src: "/gallery1.jpg", alt: "Startup Pitch Competition" },
-  { src: "/gallery2.jpg", alt: "Tech Workshop" },
-  { src: "/gallery3.jpg", alt: "Entrepreneurship Summit" },
-  { src: "/gallery4.jpg", alt: "Innovation Expo" },
-  { src: "/gallery5.jpg", alt: "Hackathon" },
+  { src: "/images/9.webp", alt: "Build your own Enterprise" },
+  { src: "/images/1.jpg", alt: "Shark Hunt" },
+  { src: "/images/conclave.webp", alt: "Conclave" },
+  { src: "/images/town.jpg", alt: "Town" },
+  { src: "/images/her.jpg", alt: "Her Era" },
   { src: "/gallery6.jpg", alt: "Networking Event" },
   // Add more images as needed
 ]
 
-export default function Gallery() {
+export default function Event() {
   const [selectedImage, setSelectedImage] = useState(null)
 
   return (
     <div className="py-20 bg-white">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Our Gallery</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {images.map((image, index) => (
             <motion.div

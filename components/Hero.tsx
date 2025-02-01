@@ -51,7 +51,7 @@ export default function Hero() {
           Welcome to the Innovation and Entrepreneurship Development Cell, College of Engineering Vadakara
         </motion.p>
         <motion.div animate={{ y: [0, -10, 0] }} transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}>
-          <Button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+          <Button className="bg-blue-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
             <a href="https://dhyuksha.vercel.app/">Join Now</a>
           </Button>
         </motion.div>

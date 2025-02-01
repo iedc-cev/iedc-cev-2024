@@ -1,12 +1,12 @@
 import Navbar from "../../components/Navbar"
-import Gallery from "../../components/Gallery"
+import Event from "../../components/Event"
 import Footer from "../../components/Footer"
 
-export default function GalleryPage() {
+export default function EventPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <Gallery />
+      <Event />
       <Footer />
     </div>
   )

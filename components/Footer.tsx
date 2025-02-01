@@ -11,16 +11,13 @@ export default function Footer() {
           <p className="text-sm">Innovation and Entrepreneurship Development Cell</p>
         </div>
         <div className="flex space-x-4">
-          <a href="#" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
+          <a href="https://www.facebook.com/iedc.cev.17" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
             <Facebook />
           </a>
-          <a href="#" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
-            <Twitter />
-          </a>
-          <a href="#" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
+          <a href="https://www.instagram.com/iedc_cev/" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
             <Instagram />
           </a>
-          <a href="#" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
+          <a href="https://www.linkedin.com/company/iedc-cev/" className="hover:text-blue-200 transition-colors social-icon transform hover:scale-110">
             <Linkedin />
           </a>
         </div>

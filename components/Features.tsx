@@ -4,23 +4,23 @@ import { motion } from "framer-motion"
 export default function Features() {
   const events = [
     {
-      image: "/event1.jpg",
-      title: "Startup Bootcamp 2023",
+      image: "/images/9.webp",
+      title: "Build Your own Enterprise",
       description: "Intensive 3-day program for aspiring entrepreneurs",
     },
     {
-      image: "/event2.jpg",
-      title: "Tech Innovators Summit",
+      image: "/images/1.jpg",
+      title: "Shart Hunt",
       description: "Showcasing cutting-edge technologies and innovations",
     },
     {
-      image: "/event3.jpg",
-      title: "Women in Entrepreneurship",
+      image: "/images/2.jpg",
+      title: "Town",
       description: "Empowering women leaders in the startup ecosystem",
     },
     {
-      image: "/event4.jpg",
-      title: "AI & ML Workshop Series",
+      image: "/images/3.jpg",
+      title: "Her Era",
       description: "Hands-on sessions on artificial intelligence and machine learning",
     },
   ]
