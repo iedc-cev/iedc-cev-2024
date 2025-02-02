@@ -6,22 +6,22 @@ export default function Features() {
     {
       image: "/images/9.webp",
       title: "Build Your own Enterprise",
-      description: "Intensive 3-day program for aspiring entrepreneurs",
+      description: "Unlock your entrepreneurial spirit with Noureen Aisha's insights on building your own enterprise. Join us to transform your ideas into action and shape your future",
     },
     {
-      image: "/images/1.jpg",
-      title: "Shart Hunt",
-      description: "Showcasing cutting-edge technologies and innovations",
+      image: "/images/conclave.webp",
+      title: "Conclave",
+      description: "Reflecting on an incredible Conclave 2024 hosted by IEDC CEV! Grateful for the inspiring discussions, innovative ideas, and the amazing people who made it unforgettable.",
     },
     {
-      image: "/images/2.jpg",
-      title: "Town",
-      description: "Empowering women leaders in the startup ecosystem",
+      image: "/images/Find.jpg",
+      title: "Find Nima",
+      description: "Embark on a thrilling adventure with IEDC CEV treasure hunt, 'Finding Nima'! Unravel clues, solve puzzles, and navigate through the campus to discover the hidden treasures.",
     },
     {
-      image: "/images/3.jpg",
+      image: "/images/her.jpg",
       title: "Her Era",
-      description: "Hands-on sessions on artificial intelligence and machine learning",
+      description: "An empowering workshop designed to equip girls with essential self defence techniques and strategies to stay safe and confident",
     },
   ]
 

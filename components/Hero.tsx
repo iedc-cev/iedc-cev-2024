@@ -1,37 +1,38 @@
 "use client";
 
-import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
-import { useState, useEffect } from "react"
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
-  const [text, setText] = useState("")
-  const fullText = "Innovate. Create. Elevate."
+  const [text, setText] = useState("");
+  const fullText = "Innovate. Create. Elevate.";
 
   useEffect(() => {
-    let i = 0
+    let i = 0;
     const typingEffect = setInterval(() => {
       if (i < fullText.length) {
-        setText(fullText.slice(0, i + 1))
-        i++
+        setText(fullText.slice(0, i + 1));
+        i++;
       } else {
-        clearInterval(typingEffect)
+        clearInterval(typingEffect);
       }
-    }, 100)
+    }, 100);
 
-    return () => clearInterval(typingEffect)
-  }, [])
+    return () => clearInterval(typingEffect);
+  }, []);
 
   return (
     <div className="relative py-20 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&loop=1&playlist=VIDEO_ID&showinfo=0&rel=0&modestbranding=1"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
+        <video
+          src="/images/background.mp4"
+          autoPlay
+          muted
+          loop
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300%] h-[300%] pointer-events-none"
           style={{ opacity: 0.3 }}
-        ></iframe>
+        ></video>
       </div>
       <div className="relative z-10 container mx-auto text-center">
         <motion.h1
@@ -52,11 +53,10 @@ export default function Hero() {
         </motion.p>
         <motion.div animate={{ y: [0, -10, 0] }} transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}>
           <Button className="bg-blue-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-            <a href="https://dhyuksha.vercel.app/">Join Now</a>
+            <a href="http://bit.ly/Call_for_members">Join Now</a>
           </Button>
         </motion.div>
       </div>
     </div>
-  )
+  );
 }
-
