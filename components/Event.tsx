@@ -11,7 +11,7 @@ const images = [
   { src: "/images/conclave.webp", alt: "Conclave" },
   { src: "/images/town.jpg", alt: "Town" },
   { src: "/images/her.jpg", alt: "Her Era" },
-  { src: "/images/find.jpg", alt: "Find Nima" },
+  { src: "/images/Find.jpg", alt: "Find Nima" },
   { src: "/images/shark.jpg", alt: "Shark Hunt" },
   { src: "/images/confluence.jpg", alt: "Confluence" },
   { src: "/images/bitburst.jpg", alt: "Bit'Burst" },
