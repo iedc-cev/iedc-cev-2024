@@ -27,9 +27,9 @@ export default function Features() {
 
   return (
     <div className="py-20 bg-gray-100">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Featured Events</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {events.map((event, index) => (
             <motion.div
               key={index}

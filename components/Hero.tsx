@@ -53,7 +53,7 @@ export default function Hero() {
         </motion.p>
         <motion.div animate={{ y: [0, -10, 0] }} transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}>
           <Button className="bg-blue-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-            <a href="http://bit.ly/Call_for_members">Join Now</a>
+            <a href="https://bit.ly/Call_for_members">Join Now</a>
           </Button>
         </motion.div>
       </div>

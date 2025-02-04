@@ -23,7 +23,7 @@ export default function Event() {
 
   return (
     <div className="py-20 bg-white">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {images.map((image, index) => (
@@ -61,7 +61,7 @@ export default function Event() {
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
           onClick={() => setSelectedImage(null)}
         >
-          <div className="relative">
+          <div className="relative px-4">
             <Image
               src={selectedImage.src || "/placeholder.svg"}
               alt={selectedImage.alt}
