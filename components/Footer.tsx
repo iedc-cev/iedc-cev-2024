@@ -22,7 +22,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="text-center mt-4 text-sm">© 2023 IEDC. All rights reserved.</div>
+      <div className="text-center mt-4 text-sm">© 2025 IEDC. All rights reserved.</div>
       <style jsx>{`
         @keyframes pulse {
           0% {

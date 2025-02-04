@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: "Sharoon",
     role: "Chief Executive Officer",
-    image: "/images/teamimg/sharron.png",
+    image: "/images/teamimg/sharron.JPG",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
