@@ -24,13 +24,13 @@ export default function Hero() {
 
   return (
     <div className="relative py-20 overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden bg-white md:bg-transparent">
         <video
           src="/images/background.mp4"
           autoPlay
           muted
           loop
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300%] h-[300%] pointer-events-none"
+          className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full md:w-[300%] md:h-[300%] pointer-events-none"
           style={{ opacity: 0.3 }}
         ></video>
       </div>

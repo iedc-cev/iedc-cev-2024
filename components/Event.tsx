@@ -1,12 +1,13 @@
 "use client";
 
-import Image from "next/image"
-import { motion } from "framer-motion"
-import { useState } from "react"
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 const images = [
   { src: "/images/9.webp", alt: "Build your own Enterprise" },
-  { src: "/images/1.jpg", alt: "Shark Hunt" },
+  { src: "/images/shark.jpg", alt: "Shark Hunt" },
   { src: "/images/conclave.webp", alt: "Conclave" },
   { src: "/images/town.jpg", alt: "Town" },
   { src: "/images/her.jpg", alt: "Her Era" },
@@ -15,10 +16,10 @@ const images = [
   { src: "/images/confluence.jpg", alt: "Confluence" },
   { src: "/images/bitburst.jpg", alt: "Bit'Burst" },
   // Add more images as needed
-]
+];
 
 export default function Event() {
-  const [selectedImage, setSelectedImage] = useState(null)
+  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
     <div className="py-20 bg-white">
@@ -47,6 +48,13 @@ export default function Event() {
             </motion.div>
           ))}
         </div>
+        <div className="flex justify-center mt-8">
+          <motion.div animate={{ y: [0, -10, 0] }} transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}>
+            <Button className="bg-blue-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+              <a href="https://www.instagram.com/iedc_cev/">More</a>
+            </Button>
+          </motion.div>
+        </div>
       </div>
       {selectedImage && (
         <div
@@ -68,6 +76,6 @@ export default function Event() {
         </div>
       )}
     </div>
-  )
+  );
 }
 

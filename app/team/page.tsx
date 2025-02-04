@@ -1,7 +1,7 @@
-import Navbar from "../../components/Navbar"
-import Footer from "../../components/Footer"
-import Image from "next/image"
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Image from "next/image";
+import { Instagram, Linkedin } from "lucide-react";
 
 const teamMembers = [
   {
@@ -63,23 +63,26 @@ const teamMembers = [
       linkedin: "https://linkedin.com",
     },
   },
-]
+];
 
 export default function TeamPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <main className="container mx-auto py-20">
-        <h1 className="text-4xl font-bold text-center mb-12 text-blue-600">Execom 2024-25</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <main className="container mx-auto py-10 px-4 md:py-20">
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-600">Execom 2024-25</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div
+              key={index}
+              className="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
+            >
               <Image
                 src={member.image || "/placeholder.svg"}
                 alt={member.name}
                 width={400}
                 height={400}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover transition-opacity duration-300 hover:opacity-90"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-1 text-blue-600">{member.name}</h3>
@@ -89,7 +92,7 @@ export default function TeamPage() {
                     href={member.social.Instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
                   >
                     <Instagram size={20} />
                   </a>
@@ -97,7 +100,7 @@ export default function TeamPage() {
                     href={member.social.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
                   >
                     <Linkedin size={20} />
                   </a>
@@ -109,6 +112,6 @@ export default function TeamPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
