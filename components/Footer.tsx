@@ -5,9 +5,9 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="bg-blue-600 py-8 text-white">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <div className="container mx-auto flex flex-col md:flex-col justify-center items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <h3 className="text-xl font-bold">IEDC</h3>
+          <h3 className="text-xl font-bold text-center">IEDC</h3>
           <p className="text-sm">Innovation and Entrepreneurship Development Cell</p>
         </div>
         <div className="flex space-x-4">
