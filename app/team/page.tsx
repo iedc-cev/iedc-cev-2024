@@ -5,44 +5,53 @@ import { Instagram, Linkedin } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Abhijay",
-    role: "Chief Executive Officer",
-    image: "/images/teamimg/Abhijay.jpg",
+    name: "Abhin C",
+    role: "Student Lead",
+    image: "/images/teamimg/abhin.jpg",
     social: {
       Instagram: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Zeenath",
-    role: "Chief Operating Officer",
-    image: "/images/teamimg/Zeenath.JPG",
+    name: "Ashwini",
+    role: "Student Lead",
+    image: "/images/teamimg/aswini.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Sharoon",
-    role: "Chief Executive Officer",
-    image: "/images/teamimg/sharron.jpg",
+    name: "Anandhu Ashok",
+    role: "Tech Lead",
+    image: "/images/teamimg/anandhu.jpeg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Hashima",
-    role: "Chief Marketing Officer",
-    image: "/images/teamimg/Hashima.jpg",
+    name: "Thaj",
+    role: "Tech Lead",
+    image: "/images/teamimg/a.jpeg",
+    social: {
+      facebook: "https://www.instagram.com/iedc_cev/",
+      linkedin: "https://www.instagram.com/iedc_cev/",
+    },
+  },
+  {
+    name: "Jomin Binny",
+    role: "Community Lead",
+    image: "/images/teamimg/jomin.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       twitter: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Dhanush",
-    role: "Chief Technology Officer",
+    name: "Dhanush S Gireesh",
+    role: "IPR and Research",
     image: "/images/teamimg/DHANUSH.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
@@ -50,72 +59,72 @@ const teamMembers = [
     },
   },
   {
-    name: "Anandhu",
-    role: "Chief Technology Officer",
-    image: "/images/teamimg/anathu.png",
+    name: "Lekshmikrishna M",
+    role: "IPR and Research Lead",
+    image: "/images/teamimg/lekshmi.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Nihal Roshan",
-    role: "Chief Financial Officer",
-    image: "/images/teamimg/Nihal.jpg",
+    name: "Anaswara A",
+    role: "Branding and Marketing",
+    image: "/images/teamimg/anaswara.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Sabarinath",
-    role: "Chief Creative Officer",
-    image: "/images/teamimg/Sabarinath.png",
+    name: "Thejus Santhosh",
+    role: "Finance Lead",
+    image: "/images/teamimg/thejus.jpeg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Ashwini",
-    role: "Women in Engineering",
-    image: "/images/teamimg/Ashwini.jpg",
+    name: "Sooraj B S",
+    role: "Quality an operation Lead",
+    image: "/images/teamimg/sooraj.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Ashiq",
-    role: "Program Officer",
-    image: "/images/teamimg/ashiq.png",
+    name: "Zeenath K P",
+    role: "Women innovation Lead",
+    image: "/images/teamimg/zeenth.jpeg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Rashdhan",
-    role: "Program Officer",
-    image: "/images/teamimg/RASHDHAN.jpg",
+    name: "Adith J P",
+    role: "Media Lead",
+    image: "/images/teamimg/adith.jpeg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Razan",
-    role: "Program Officer",
-    image: "/images/teamimg/Razan.jpg",
+    name: "Maisa Ismail",
+    role: "Innovation and Creative Lead",
+    image: "/images/teamimg/maisa.jpeg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
     },
   },
   {
-    name: "Abhin.C",
-    role: "Web Master",
-    image: "/images/teamimg/Abhinc.jpg",
+    name: "Muhammad Hijas M",
+    role: "Quality and Operation Lead",
+    image: "/images/teamimg/hijas.jpg",
     social: {
       facebook: "https://www.instagram.com/iedc_cev/",
       linkedin: "https://www.instagram.com/iedc_cev/",
@@ -128,8 +137,8 @@ export default function TeamPage() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="container mx-auto py-10 px-4 md:py-20">
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-600">Execom 2024-25</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-600">Execom 2025-26</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
           {teamMembers.map((member, index) => (
             <div
               key={index}
