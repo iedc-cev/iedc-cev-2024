@@ -136,9 +136,9 @@ export default function TeamPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <main className="container mx-auto py-10 px-4 md:py-20">
+      <main className="container mx-auto py-10 px-10 lg:px-20 md:px-20 md:py-20 ">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-600">Execom 2025-26</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -151,10 +151,10 @@ export default function TeamPage() {
                 height={400}
                 className="w-full h-64 object-cover transition-opacity duration-300 hover:opacity-90"
               />
-              <div className="p-6">
+              <div className="p-3">
                 <h3 className="text-xl font-semibold mb-1 text-blue-600">{member.name}</h3>
-                <p className="text-gray-600 mb-4">{member.role}</p>
-                <div className="flex justify-center space-x-4">
+                <p className="text-gray-600 mb-2">{member.role}</p>
+                <div className="flex justify-center space-x-5">
                   <a
                     href={member.social.Instagram}
                     target="_blank"
