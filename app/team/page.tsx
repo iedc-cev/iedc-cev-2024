@@ -138,11 +138,11 @@ export default function TeamPage() {
       <Navbar />
       <main className="container mx-auto py-10 px-10 lg:px-20 md:px-20 md:py-20 ">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-600">Execom 2025-26</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className="flex flex-col w- bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
             >
               <Image
                 src={member.image || "/placeholder.svg"}

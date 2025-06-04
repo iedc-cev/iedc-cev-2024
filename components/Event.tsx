@@ -4,6 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import Link from 'next/link'
+import EventsForm from "./EventsForm";
 
 const images = [
   { src: "/images/9.webp", alt: "Build your own Enterprise" },
@@ -15,23 +17,23 @@ const images = [
   { src: "/images/shark.jpg", alt: "Shark Hunt" },
   { src: "/images/confluence.jpg", alt: "Confluence" },
   { src: "/images/bitburst.jpg", alt: "Bit'Burst" },
-  // Add more images as needed
 ];
 
 export default function Event() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="py-20 bg-white">
+    <div className="p-5 lg:p-10 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Events</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <Link href='/form'>OnlineEvents</Link>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {images.map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ delay: index * 0.2 }}
               className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer"
               onClick={() => setSelectedImage(image)}
             >
@@ -40,7 +42,7 @@ export default function Event() {
                 alt={image.alt}
                 width={400}
                 height={300}
-                className="w-full h-64 object-cover transition-transform duration-300 transform hover:scale-110"
+                className="w-full h-50 object-cover transition-transform duration-300 transform hover:scale-110"
               />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
                 <p className="text-white text-sm">{image.alt}</p>

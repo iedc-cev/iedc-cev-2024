@@ -31,7 +31,7 @@ export default function Hero() {
           muted
           loop
           className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full md:w-[300%] md:h-[300%] pointer-events-none"
-          style={{ opacity: 0.3 }}
+          style={{ opacity: 0.5 }}
         ></video>
       </div>
       <div className="relative z-10 container mx-auto text-center">

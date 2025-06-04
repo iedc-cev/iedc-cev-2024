@@ -4,11 +4,8 @@ import Image from "next/image"
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="flex items-center">
+    <nav className="bg-white shadow-md p-4 flex justify-around items-center">
         <Link href="/"><Image src="/images/logo.png" alt="IEDC Logo" width={110} height={37} className="mr-2" /></Link>
-        </Link>
         <ul className="flex space-x-6">
           <li>
             <Link href="/about" className="text-gray-600 hover:text-blue-600 transition-colors relative group">
@@ -29,7 +26,6 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-      </div>
     </nav>
   )
 }
