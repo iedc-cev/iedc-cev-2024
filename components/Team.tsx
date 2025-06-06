@@ -31,7 +31,7 @@ function Team() {
       },
       {
         name: "Thaj",
-        image: "/images/teamimg/a.jpeg",
+        image: "/images/teamimg/thaj.jpg",
         social: {
           facebook: "https://www.instagram.com/iedc_cev/",
           linkedin: "https://www.instagram.com/iedc_cev/",
