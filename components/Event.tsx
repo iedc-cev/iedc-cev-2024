@@ -25,8 +25,8 @@ export default function Event() {
   return (
     <div className="p-5 lg:p-10 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Events</h2>
-        <Link href='/form'>OnlineEvents</Link>
+        <h2 className="text-4xl font-bold text-center mb-12 text-[#094395]">Events</h2>
+        <Link href='/gamenight'>OnlineEvents</Link>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {images.map((image, index) => (
             <motion.div

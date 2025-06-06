@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import Link from 'next/link'
 
 export default function Hero() {
   const [text, setText] = useState("");
@@ -52,8 +53,8 @@ export default function Hero() {
           Welcome to the Innovation and Entrepreneurship Development Cell, College of Engineering Vadakara
         </motion.p>
         <motion.div animate={{ y: [0, -10, 0] }} transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}>
-          <Button className="bg-blue-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-            <a href="https://bit.ly/Call_for_members">Join Now</a>
+          <Button className="bg-[#094395] hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+            <Link href="https://www.instagram.com/iedc_cev/">Follow Us</Link>
           </Button>
         </motion.div>
       </div>

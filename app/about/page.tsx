@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="container mx-auto py-10 px-4 md:py-20">
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-blue-600">About IEDC</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-[#094395]">About IEDC</h1>
         <div className="max-w-3xl mx-auto">
           <p className="text-base md:text-lg mb-6">
             The Innovation and Entrepreneurship Development Cell (IEDC) is a platform for students to explore and
