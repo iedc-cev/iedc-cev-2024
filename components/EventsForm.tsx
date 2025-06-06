@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Template from './Template';
 
 const semesters = ['S3', 'S5', 'S7', 'None'];
@@ -39,6 +40,7 @@ const EventsForm = () => {
       });
 
       setStatus("Form submitted successfully!");
+
       setFormData({ name: "", department: "", semester: "", mobileNo: "" });
     } catch (err) {
       console.error("Submission error:", err);
@@ -135,8 +137,9 @@ const EventsForm = () => {
 
               <div className="text-gray-500">
                 <p className="text-xl text-[#1c2c81]">Important Information</p>
-                <p className="text-md">Please wait until link will be provided</p>
+                <p className="text-md">Please wait until link will be provided below</p>
               </div>
+              {status==="Form submitted successfully!"?<Link href='www.google.com' className='text-green-700'>Click here join Whatsapp Group</Link>:''}
             </form>
           </div>
 
