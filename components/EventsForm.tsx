@@ -139,7 +139,7 @@ const EventsForm = () => {
                 <p className="text-xl text-[#1c2c81]">Important Information</p>
                 <p className="text-md">Please wait until link will be provided below</p>
               </div>
-              {status==="Form submitted successfully!"?<Link href='www.google.com' className='text-green-700'>Click here join Whatsapp Group</Link>:''}
+              {status==="Form submitted successfully!"?<Link href='https://chat.whatsapp.com/D1cwgEZH2CrBnnXX31nAee' className='text-green-700'>Click here join Whatsapp Group</Link>:''}
             </form>
           </div>
 
