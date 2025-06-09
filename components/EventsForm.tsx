@@ -137,7 +137,7 @@ const EventsForm = () => {
 
               <div className="text-gray-500">
                 <p className="text-xl text-[#1c2c81]">Important Information</p>
-                <p className="text-md mb-6 mt-2">Please wait — a link to join the WhatsApp group will be provided below shortly.</p>
+                <p className="text-md mb-6 mt-2">Please wait — a link to join the WhatsApp group will be provided below shortly after you fill out the form</p>
               </div>
               {status==="Form submitted successfully!"?<Link href='https://chat.whatsapp.com/D1cwgEZH2CrBnnXX31nAee' className='text-[#fefefe] my-10'><button className='bg-[#14721f] px-4 py-3 rounded-md hover:bg-[#2ac13c] active:bg-[#0e4114] transition'>Click here</button></Link>:''}
             </form>
